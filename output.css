@@ -884,24 +884,14 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-Greylight{
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
-}
-
 .border-ALERTRED{
   --tw-border-opacity: 1;
   border-color: rgb(224 36 36 / var(--tw-border-opacity));
 }
 
-.bg-White{
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 251 250 / var(--tw-bg-opacity));
-}
-
-.bg-Lavender{
-  --tw-bg-opacity: 1;
-  background-color: rgb(126 58 242 / var(--tw-bg-opacity));
+.border-Greylight{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-Greylight{
@@ -909,16 +899,38 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/Error\.svg\'\)\]{
-  background-image: url('/Error.svg');
+.bg-Lavender{
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 58 242 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/Person\.svg\'\)\]{
-  background-image: url('/Person.svg');
+.bg-White{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 251 250 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/grad\.svg\'\)\]{
-  background-image: url('/grad.svg');
+.bg-\[url\(\'\.\.\/grad\.svg\'\)\]{
+  background-image: url('../grad.svg');
+}
+
+.bg-\[url\(\'\.\.Person\.svg\'\)\]{
+  background-image: url('..Person.svg');
+}
+
+.bg-\[url\(\'Error\.svg\'\)\]{
+  background-image: url('Error.svg');
+}
+
+.bg-\[url\(\'src\/Error\.svg\'\)\]{
+  background-image: url('src/Error.svg');
+}
+
+.bg-\[url\(\'src\/Person\.svg\'\)\]{
+  background-image: url('src/Person.svg');
+}
+
+.bg-\[url\(\'src\/grad\.svg\'\)\]{
+  background-image: url('src/grad.svg');
 }
 
 .bg-cover{
@@ -1038,11 +1050,6 @@ video {
   line-height: 30px;
 }
 
-.text-Greydark{
-  --tw-text-opacity: 1;
-  color: rgb(105 105 105 / var(--tw-text-opacity));
-}
-
 .text-ALERTRED{
   --tw-text-opacity: 1;
   color: rgb(224 36 36 / var(--tw-text-opacity));
@@ -1051,6 +1058,11 @@ video {
 .text-Black{
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
+}
+
+.text-Greydark{
+  --tw-text-opacity: 1;
+  color: rgb(105 105 105 / var(--tw-text-opacity));
 }
 
 .outline-none{
