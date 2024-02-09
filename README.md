@@ -21,9 +21,7 @@
     fontFamily: {
       mont :[ 'Montserrat'],
     extend: {
-      backgroundImage: {
-        'grad': "url('../grad.svg')",
-        'Person': "url('/..Person.svg')",
-        'Error': "url('/VERSTKAPOPITKAN1488/Error.svg')",
-      },
+},
+},
+}
 ```
