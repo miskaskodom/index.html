@@ -2,6 +2,11 @@
 module.exports = {
   content: ["*.html"],
   theme: {
+    screens:{
+      'sm' : '320px',
+      'md' : '792px',
+      'xl' : '1280px',
+    },
     colors: {
       transparent: 'transparent',
     current: 'currentColor',
